@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.Name{
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 40px;
+    letter-spacing: 50px;
+    font-family: 'Cinzel', serif;
+}
+.print{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.head{
+    background-color: burlywood;
+}
+
+.logo{
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.nav-a{
+    text-decoration: none;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 30px;
+    left: 20px;
+    right: 20px;
+}
+.nav{   
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.info{
+    background-color: brown;
+    
+}
