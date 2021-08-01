@@ -4,25 +4,22 @@
     font-size: 18px;
     font-weight: 400;
     box-sizing: border-box;
-}
-
-
-.container{
-    margin: 0 auto;
     max-width: 1080px;
+    margin: 0 auto;
 }
 
 .Name{
-    font-size: 100px;
+    font-size: 70px;
     margin-top: 50px;
-    margin-left: 40px;
-    letter-spacing: 50px;
+    margin-left: 300px;
+    letter-spacing: 10px;
     font-family: 'Cinzel', serif;
 }
 .print{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 .head{
     background-color: burlywood;
@@ -31,6 +28,7 @@
 .logo{
     margin-right: 40px;
     margin-top: 40px;
+
 }
 
 .nav-a{
@@ -52,5 +50,19 @@
 
 .info{
     background-color: brown;
+    display: flex;
+    flex-direction: row;
     
+}
+
+.pics{
+    display: flex;    
+   
+    flex-wrap: 2 2 wrap;
+    align-content: space-around;
+    align-items: stretch;
+    columns: 2;
+}
+main{
+    display: flex;
 }
