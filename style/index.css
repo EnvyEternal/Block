@@ -56,14 +56,41 @@
 }
 
 .pics{
-    border: 0 auto;
-    display: flex;    
-   
-    flex-wrap: 2 2 wrap;
+    border: 0 auto;  
+    /*flex-wrap: 2 wrap;
     align-content: space-around;
     align-items: stretch;
     columns: 2;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    max-width: 600px;
+    max-height: 800px;*/
+
+}
+.paper{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+    z-index: -1;
+}
+
+.photo{
+    border: 0 auto;
+    position: absolute;
+    flex-wrap: 2 wrap;
+    align-content: space-around;
+    align-items: stretch;
+    columns: 2;
+    margin-left: 65px;
+    margin-top: -670px;
+    margin-right: 50px;
+    max-width: 600px;
+    max-height: 800px;
 }
 main{
     display: flex;
+
 }
