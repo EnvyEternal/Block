@@ -33,7 +33,6 @@
 
 .nav-a{
     text-decoration: none;
-    
     font-family: Montserrat;
     font-style: normal;
     font-size: 30px;
@@ -52,7 +51,27 @@
     background-color: brown;
     display: flex;
     flex-direction: row;
+    text-align: center;
+    font-style: normal;
+    margin-left: 90px;
+    margin-right: 100px;
+    width: 100%;
+    object-fit: cover;
+    background-size: contain;
+    padding: 2%;
+    width: 100%;
+}
+
+.start{  
+    border: 0 auto;
+    position: absolute;
+    justify-content: center
+    display:center;
+    align-items: center;
+}
     
+.infoPeople{
+    margin-top: 40px;
 }
 
 .pics{
@@ -92,5 +111,5 @@
 }
 main{
     display: flex;
-
+    
 }
