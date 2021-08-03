@@ -2,98 +2,75 @@
     margin: 0;
     padding: 0;
     font-size: 18px;
-    /*font-weight: 400;
-    box-sizing: border-box;
-    max-width: 1080px;
-    margin: 0 auto;*/
 }
 
 .Name{
     font-size: 70px;
-    margin-top: 50px;
-    margin-left: 300px;
-    letter-spacing: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    letter-spacing: 0px;
     font-family: 'Cinzel', serif;
 }
+
 .print{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
+
 .head{
-    background-color: burlywood;
+    background-color: rgb(196, 196, 196);
 }
 
 .logo{
     margin-right: 40px;
-    margin-top: 40px;
-
+    margin-top: 0px;
 }
 
 .nav-a{
     text-decoration: none;
-    font-family: Montserrat;
     font-style: normal;
     font-size: 30px;
     left: 20px;
     right: 20px;
 }
+
 .nav{   
-    background-color: cadetblue;
+    background-color: rgb(255, 133, 52);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 3px;    
 }
 
 .info{
-    background-color: brown;
+    background-color: rgb(151, 23, 23);
     display: flex;
     flex-direction: row;
     text-align: center;
     font-style: normal;
-    margin-left: 90px;
-    margin-right: 100px;
+    margin-left: 40px;
+    margin-right: 30px;
     width: 100%;
     object-fit: cover;
     background-size: contain;
     padding: 2%;
     width: 100%;
-}
-
-.start{  
-    border: 0 auto;
-    position: absolute;
-    justify-content: center
-    display:center;
-    align-items: center;
-}
-    
-.infoPeople{
-    margin-top: 40px;
+    flex-direction: column;
+    font-family: 'MonteCarlo', cursive;
 }
 
 .pics{
     border: 0 auto;  
-    /*flex-wrap: 2 wrap;
-    align-content: space-around;
-    align-items: stretch;
-    columns: 2;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-right: 50px;
-    max-width: 600px;
-    max-height: 800px;*/
-
 }
+
 .paper{
     position: relative;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 10px;
-    
-    
-    z-index: -1;
+    margin-bottom: 10px;  
+    z-index: 1;
 }
 
 .photo{
@@ -108,8 +85,37 @@
     margin-right: 50px;
     max-width: 600px;
     max-height: 800px;
+    z-index: 2;
 }
+
 main{
     display: flex;
-    
+    background-color: rgb(196, 196, 196);    
+}
+
+.start{
+    margin-bottom: 15px;
+    font-size: 50px
+}
+.infoPeople{
+    font-size: 30px;
+}
+
+.footer{
+    background-color: rgb(255, 133, 52);
+    box-sizing: border-box;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.infoFoter{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
