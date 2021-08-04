@@ -34,10 +34,11 @@
     font-size: 30px;
     left: 20px;
     right: 20px;
+    color: black;
 }
 
 .nav{   
-    background-color: rgb(255, 133, 52);
+    background-color: rgba(56, 68, 236, 0.418);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +46,7 @@
 }
 
 .info{
-    background-color: rgb(151, 23, 23);
+    background-color: rgb(196, 196, 196);
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -102,7 +103,7 @@ main{
 }
 
 .footer{
-    background-color: rgb(255, 133, 52);
+    background-color: rgba(56, 68, 236, 0.418);
     box-sizing: border-box;
     height: 100px;
     display: flex;
